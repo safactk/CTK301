@@ -1,0 +1,49 @@
+h1 {
+    color: #cf3030;
+  }
+
+h2 {
+    color: #291868;
+  }
+
+h2 {
+    background-color: #e59999;
+  }
+
+h3 {
+    color: #a74949;
+  }
+
+p {
+    color: #291868;
+}
+
+a {
+    color: red;
+    text-decoration: none;
+  }
+
+a:link {
+    color: red;
+  }
+
+a:visited {
+    color: green;
+  }
+
+a:hover {
+    color: yellow;
+  }  
+
+.specialp {
+    color:red;
+}
+
+#divexample {
+    color: #291868;
+    background-color: red;
+}
+
+.spanstyle {
+    color: green;
+}
