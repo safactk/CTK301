@@ -1,0 +1,54 @@
+/* This is a stylesheet for BasicCSS.html */
+/*
+p {
+    color: #ff0000;
+    background-color: #AAE2CD;  
+  }
+*/
+.specialp {
+    color: #0000FF;
+    background-color: lightgreen
+}
+
+#specialid {
+    color: #006600;
+    background-color: orange;
+}
+
+#divexample{
+    background-color: blue;
+
+}
+
+.spanstyle {
+    color: red;
+}
+
+a {
+    color: #ff0000;
+  }
+
+a:link {
+    color: #00ff00;
+  }
+
+a:visited {
+    color: #0000ff;
+  }
+
+a:active {
+    color: #00ffff;
+  }
+
+a:hover {
+    color: darkblue;
+  }        
+
+a {
+    text-decoration: none;
+  }
+
+a:hover {
+    text-decoration: underline;
+  }
+  
