@@ -54,6 +54,7 @@ nav li a:hover {
     border: 3px solid black;
     width: 400px;
     padding: 10px;
+    margin-right: 20px;
 }
 
 
@@ -84,6 +85,7 @@ nav {
 
 main {
     grid-column:span 9;
+    margin-right: 20px;
 }
 
 .boldtext {
