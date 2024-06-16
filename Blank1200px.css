@@ -25,6 +25,7 @@ header {
 #aboutme {
   grid-column: 6 / span 10;
   margin-right: 10px;
+  /* I used the following piece of code from MDN Web Docs to help figure out how to postion my text in my design. I edited this code to better fit the need of my design layout.  This code can also be found in my "section h3" coding. Original code can be found at: https://developer.mozilla.org/en-US/docs/Web/CSS/grid-column. Last Retrieved on June 15th 2024.*/
   position: relative; top: -500px;
 }
 
@@ -113,9 +114,3 @@ p {
   font-family: Arial, Helvetica, sans-serif;
 }
  
-
-/* style for dummy columns, delete and replace with your own CSS */
-.dummycolumn {
-  background-color: rgba(255,0,0,.25);
-  grid-column: span 1;
-}
