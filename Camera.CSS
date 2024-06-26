@@ -1,0 +1,151 @@
+body {
+    background-color: #999999;
+  }
+  
+  #wrapper {
+    margin: 24px auto;
+    width: 1200px;
+    border: 1px solid black;
+    padding: 24px;
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-column-gap: 24px;
+  }
+  
+  header {
+    grid-column: span 3;
+    color: #FFA4F6;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 35px;
+    text-align: center;
+    font-size: 20px;
+  }
+
+  nav {
+    grid-column: 5 / span 12;
+  }
+  
+  nav li {
+    color: #FFA4F6;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 150px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: inline-block;
+    text-align: center;
+  }
+  
+  nav li a {
+    color: #FFA4F6;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 5px;
+    transition: color 1s;
+  }
+  
+  nav li a:hover {
+    color: #8a2f81;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    grid-column: 8 / span 10;
+    margin-left: 60px;
+    color: #FFA4F6;
+    text-align: left;
+    font-weight: bold;
+    font-size: 40px;
+    padding-bottom: 10px;
+  }
+
+  #camera {
+    grid-column: 8 / span 10;
+    margin-right: 10px;
+    font-size: 18px;
+    /* I used the following piece of code from MDN Web Docs to help figure out how to postion my text in my design. I edited this code to better fit the need of my design layout.  This code can also be found in my "section h3" coding. Original code can be found at: https://developer.mozilla.org/en-US/docs/Web/CSS/grid-column. Last Retrieved on June 15th 2024.*/
+    position: relative; top: -230px;
+  }
+
+  #video {
+    grid-column: 1/ span 6;
+    margin-left: 25px;
+    position: relative; bottom: -50px;
+  }
+
+  section h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    grid-column: span 4;
+    color: #FFA4F6;
+    font-size: 30px;
+    font-weight: 100;
+    margin-bottom: 20px;
+    margin-left: -15px;
+    position: relative; bottom: -374px;
+  }
+
+  #section {
+    grid-column: 1 /span 18;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fcebfb;
+    color: #FFA4F6;
+    font-weight: bold;
+    font-size: 33px;
+    text-align: left;
+    margin-top: -10px;
+    margin-left: 5px;
+    position: relative; top: -50px;
+  }
+
+  main {
+    font-family: Arial, Helvetica, sans-serif;
+    grid-column: 2/ span 12;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: left;
+    margin-right: 3px;
+    margin-top: 10px;
+    position: relative; top: -60px;
+  }
+  
+  section p {
+    margin-right: 30px;
+    margin-left: 10px;
+    margin-top: 40px;
+    text-align: justify;
+  }
+  
+  section img {
+    margin-right: 30px;
+  }
+
+  footer {
+    grid-column: span 12;
+    text-align: center;
+    margin-left: 85px;
+    margin-bottom: -20px;
+    position: relative; top: -40px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  footer a {
+    color: #FFA4F6;
+    font-size: 30px;
+    transition: all 1s;
+  }
+  
+  footer a:hover { 
+    color: #8a2f81;
+  }
+  
+  p {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  

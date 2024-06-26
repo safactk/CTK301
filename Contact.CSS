@@ -1,0 +1,82 @@
+body {
+    background-color: #999999;
+  }
+  
+  #wrapper {
+    margin: 24px auto;
+    width: 1200px;
+    border: 1px solid black;
+    padding: 24px;
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-column-gap: 24px;
+  }
+  
+  header {
+    grid-column: span 3;
+    color: #FFA4F6;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 35px;
+    text-align: center;
+    font-size: 20px;
+  }
+
+  #mainimg {
+    grid-column: 7;
+  }
+
+  nav {
+    grid-column: 5 / span 12;
+  }
+  
+  nav li {
+    color: #FFA4F6;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 150px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: inline-block;
+    text-align: center;
+  }
+  
+  nav li a {
+    color: #FFA4F6;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 5px;
+    transition: color 1s;
+  }
+  
+  nav li a:hover {
+    color: #8a2f81;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  #form {
+    grid-column: span 1;
+}
+
+  footer {
+    grid-column: span 12;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-left: 85px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  footer a {
+    color: #FFA4F6;
+    font-size: 30px;
+    transition: all 1s;
+  }
+  
+  footer a:hover { 
+    color: #8a2f81;
+  }
