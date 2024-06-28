@@ -22,10 +22,6 @@ body {
     font-size: 20px;
   }
 
-  #mainimg {
-    grid-column: 7;
-  }
-
   nav {
     grid-column: 5 / span 12;
   }
@@ -59,16 +55,33 @@ body {
     padding: 0;
   }
 
+  section img {
+    grid-column: 10;
+    margin: 10px;
+    padding-bottom: 50px;
+    position: relative; left: 800px;
+  }
+
   #form {
-    grid-column: span 1;
-}
+    grid-column: 12;
+    position: relative; left: -500px;
+    position: relative; top: 250px;
+  }
+
 
   footer {
     grid-column: span 12;
     text-align: center;
-    margin-bottom: 20px;
     margin-left: 85px;
     font-family: Arial, Helvetica, sans-serif;
+  }
+
+  #important {
+    font-family: Arial, Helvetica, sans-serif;
+    grid-column: 12;
+    position: relative; left: -500px;
+    position: relative; top: -300px;
+    text-align: center;
   }
 
   footer a {
